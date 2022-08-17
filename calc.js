@@ -7,6 +7,7 @@ let screenValue = "";
 
 for (item of buttons) {
   item.addEventListener("click", (e) => {
+    console.log("Hejsa")
     buttonText = e.target.innerText;
     if (buttonText == "X") {
         buttonText = "*";
