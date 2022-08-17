@@ -14,7 +14,7 @@ for (item of buttons) {
         screen.value = screenValue;
       } else if (buttonText == "C") {
         screenValue = "";
-        screen.Value = screenValue;
+        screen.value = screenValue;
       } else if (buttonText == "=") {
         checkForBracketMulti();
       } else {
